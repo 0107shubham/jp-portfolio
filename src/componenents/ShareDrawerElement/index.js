@@ -17,16 +17,10 @@ const QRCodeComponent = ({ isVisible }) => {
             src="https://mywc.link/qr.png?wid=6083&amp;type=v"
             width="250"
             height="250"
-            alt="img"
+            alt="cont"
           />
         </div>
-        <a
-          href="https://mywc.link/qr.png?wid=6083&amp;type=v"
-          className="p-4 text-sm text-blue-500"
-          download=""
-        >
-          Download QR Code
-        </a>
+        Download QR Code
       </div>
     </div>
   );
@@ -109,22 +103,22 @@ const SocialComponent = ({ isVisible }) => {
         <img
           class="h-10 w-10 m-3 rounded-full"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1713358235/pinterest_jwf52o.png"
-          alt="Image 1"
+          alt="lin1"
         />
         <img
           class="h-10 m-3 w-10 rounded-full"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1713358222/twitter_ixiihh.png"
-          alt="Image 2"
+          alt="twi2"
         />
         <img
           class="h-10 m-3 w-10 rounded-full"
           src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMC8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvVFIvMjAwMS9SRUMtU1ZHLTIwMDEwOTA0L0RURC9zdmcxMC5kdGQnPjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMzIgMzIiIGhlaWdodD0iMzJweCIgaWQ9IkxheWVyXzEiIHZlcnNpb249IjEuMCIgdmlld0JveD0iMCAwIDMyIDMyIiB3aWR0aD0iMzJweCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGc+PHBhdGggZD0iTTMyLDMwYzAsMS4xMDQtMC44OTYsMi0yLDJIMmMtMS4xMDQsMC0yLTAuODk2LTItMlYyYzAtMS4xMDQsMC44OTYtMiwyLTJoMjhjMS4xMDQsMCwyLDAuODk2LDIsMlYzMHoiIGZpbGw9IiMwMDdCQjUiLz48Zz48cmVjdCBmaWxsPSIjRkZGRkZGIiBoZWlnaHQ9IjE0IiB3aWR0aD0iNCIgeD0iNyIgeT0iMTEiLz48cGF0aCBkPSJNMjAuNDk5LDExYy0yLjc5MSwwLTMuMjcxLDEuMDE4LTMuNDk5LDJ2LTJoLTR2MTRoNHYtOGMwLTEuMjk3LDAuNzAzLTIsMi0yYzEuMjY2LDAsMiwwLjY4OCwyLDJ2OGg0di03ICAgIEMyNSwxNCwyNC40NzksMTEsMjAuNDk5LDExeiIgZmlsbD0iI0ZGRkZGRiIvPjxjaXJjbGUgY3g9IjkiIGN5PSI4IiBmaWxsPSIjRkZGRkZGIiByPSIyIi8+PC9nPjwvZz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48L3N2Zz4="
-          alt="Image 3"
+          alt="face3"
         />
         <img
           class="h-10 m-3 w-10 rounded-full"
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAj5JREFUaENj1ApdxSbE8r753/9/sYyMjJIMQwL8f/b/P+PiD3+F6hitImZ0MDIylA8Jd6M58v9/hk5Gq4jpz4ZOyGME8wtG68gZ/4di6MPcPOqBgY690RigJAZYWZkZDDQkGSRFeRl4udmxGnX51guGSzdf4LRmQGKAh4uNITnEhMHTTp0BxMYH5q09yzBv7ZnB4wEVeWGG3nIvBmEBLqIib1B5QE5SgGFmUwDO5ILNR4PGA8zMTAzT6/0ZtFTEiAp5mKJB4wEXKxWGhhxnkhwPUjxoPDCt3p9BT11iaHqAm5ONYfvsBAYmJsah6QFzPVmG3govvI6//fAtw4J1ZxlA5f67j9+J9ihd6gE/J02GshQ7nI4COT6jfgPDz19/iHY4XRtz0b4GDJmR5jgdV92/i+Hg6fskOx6kgS4xkBRswpAUbIzTgT4ZCxk+fPoxdD1gFz2L4d9/8rolgyIGbKJmkhX6gyYJDRoPgCoqXTXMyspUV4bBREcaZyhPX34Sp9y5q08Zrt97TZ/WKKHMSk46KeveznDs/KOh6wH/rMUMbz98G5oeePP+K0NA9hK8EUfVUojaSejouYcM5T07hq4HQF1JUHMaHxjUMUAoA1O9HqB2EiKUganuAVxRTchjg6YiG/UAGTUdVTPxaAyMxgAZIUCMltFSCE8ojWbi0STEwMAwWhMTkwwoUTNaCg3zUmj6UwYGRilKkgghvTRMQk/pstiDdh7438EIWm4jwPyuiZHxfyytYoL6HkAstwEA98RIM0zUGvcAAAAASUVORK5CYII="
-          alt="Image 4"
+          alt="cont4"
         />
       </div>
     </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "../../Context";
 
 const More = () => {
-  const { darkMode, toggleTheme } = useTheme();
+  const { darkMode } = useTheme();
   return (
     <div id="block_9984" className="mb-8">
       <h4

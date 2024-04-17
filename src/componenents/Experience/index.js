@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "../../Context";
 import "./index.css";
 const Experience = () => {
-  const { darkMode, toggleTheme } = useTheme();
+  const { darkMode } = useTheme();
   return (
     <div>
       <h4
