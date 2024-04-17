@@ -33,14 +33,14 @@ const Card = () => {
         }  relative flex flex-col justify-start break-words shadow-lg main-section-has-banner rounded-b-2xl`}
       >
         <div className="mb-4 flex items-start justify-between px-3 sm:px-6">
-          <div className="-mt-6 sm:-mt-10 md:-mt-16 rounded-full ring-white bg-white relative ring-4 h-28 w-28 sm:h-32 sm:w-32">
+          <div className="-mt-6 sm:-mt-10 md:-mt-16 rounded-full bg-red-700 ring-white bg-white relative ring-4 h-28 w-28 sm:min-h-32 sm:min-w-32">
             <img
               src="https://wcardmedia.b-cdn.net/storage/wcard_photos/gAdcFJqwb0Z8eLe3CKRV1eOU4ylRKBvwDg95jbTT.png"
               className="rounded-full h-full w-full shadow"
               alt="profile"
             />
           </div>
-          <div className="mt-3 flex flex-grow flex-wrap items-end justify-end gap-2 sm:mt-6">
+          <div className="mt-3 flex flex-grow max-w-[70%] flex-wrap items-end justify-end gap-2 sm:mt-6">
             <button class="bg-custom-purple text-[17px] text-white rounded py-2 px-5 h-8 md:h-10">
               Back my campaign
             </button>
