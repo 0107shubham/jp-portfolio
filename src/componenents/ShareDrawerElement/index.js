@@ -17,6 +17,7 @@ const QRCodeComponent = ({ isVisible }) => {
             src="https://mywc.link/qr.png?wid=6083&amp;type=v"
             width="250"
             height="250"
+            alt="img"
           />
         </div>
         <a
