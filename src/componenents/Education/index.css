@@ -2,25 +2,25 @@
   height: 80px;
   display: flex;
   flex-direction: row;
-  padding-left: 24px;
+  padding-left: 0px;
 }
 
 .circle {
-  position: relative; /* Added for positioning the pseudo-element */
-  width: 32px; /* Set the width and height to the same value for a perfect circle */
+  position: relative;
+  width: 32px;
   height: 32px;
-  background-color: #8b5cf6; /* Set the background color to any color you want */
-  border-radius: 50%; /* Set border-radius to 50% to make the element round */
-  display: flex; /* Added for vertical alignment */
-  align-items: center; /* Added for vertical alignment */
-  justify-content: center; /* Added for horizontal alignment */
+  background-color: #8b5cf6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .circle::before {
-  content: ""; /* Added double quotes around content */
-  position: absolute; /* Added for absolute positioning */
-  top: 30px; /* Adjust the position of the line */
-  left: calc(50% + 0px); /* Adjust the position of the line */
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: calc(50%);
   height: 50px;
   width: 2px;
   background-color: #8b5cf6;

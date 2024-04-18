@@ -41,14 +41,15 @@ const EmailComponent = ({ isVisible }) => {
           <p class="mb-3 text-base text-gray-500">Enter an email address</p>
           <div class="flex  ">
             <input
-              class="mr-1 min-w-80
+              class="mx-1 w-3/4
+          
               block flex-grow  rounded-md border border-gray-300 p-2 shadow-sm focus:border-gray-300"
               placeholder="example@domain.com"
               type="email"
               inputmode="email"
               autocomplete="email"
             />
-            <button className="bg-custom-purple text-white w-[72px] h-[42px] rounded">
+            <button className="bg-custom-purple  text-white w-1/4 h-[42px] rounded">
               Send
             </button>
           </div>

@@ -5,7 +5,7 @@ const Social = () => {
   const { darkMode } = useTheme();
   return (
     <div>
-      <div id="block_9983" className="mb-8 ">
+      <div className="mb-8 mx-5">
         <h4
           style={{
             backgroundColor: darkMode ? "white" : "black",
@@ -15,7 +15,7 @@ const Social = () => {
         >
           Website & Social Links
         </h4>
-        <div className="grid ml-4 grid-cols-1 sm:grid-cols-2">
+        <div className="grid  grid-cols-1 sm:grid-cols-2">
           <div
             className="gaclick items mb-5 flex cursor-pointer items-center justify-between"
             data-action="link_13779"

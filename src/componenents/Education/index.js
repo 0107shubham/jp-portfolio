@@ -5,7 +5,7 @@ import "./index.css";
 const Education = () => {
   const { darkMode } = useTheme();
   return (
-    <div>
+    <div class="mx-5">
       <h4
         style={{
           backgroundColor: darkMode ? "white" : "black",

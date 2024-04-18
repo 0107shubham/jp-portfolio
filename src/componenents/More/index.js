@@ -4,7 +4,7 @@ import { useTheme } from "../../Context";
 const More = () => {
   const { darkMode } = useTheme();
   return (
-    <div id="block_9984" className="mb-8">
+    <div className="mb-8 mx-5">
       <h4
         style={{
           backgroundColor: darkMode ? "white" : "black",

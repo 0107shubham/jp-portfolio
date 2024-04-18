@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Drawer } from "@mui/material";
+import { RxCross2 } from "react-icons/rx";
 
 const drawerStyle = {
   margin: "0 auto",
@@ -48,9 +49,16 @@ const SaveContactDrawer = ({ open, setOpen }) => {
       style={{ zIndex: 1500 }}
     >
       <div className="flex flex-col rounded m-5">
-        <h2 className="text-typo-primary text-left text-2xl font-bold">
-          Save Contact
-        </h2>
+        <div className="flex flex-row justify-between p-3">
+          <h2 className="text-typo-primary text-left text-2xl font-bold">
+            Save Contact
+          </h2>
+          <RxCross2
+            className="   h-6 w-6 items-center justify-center rounded-full bg-gray-100 sm:h-8 sm:w-8"
+            onClick={handleClose}
+          />
+        </div>
+
         <p className="text-typo-secondary my-4 text-lg font-bold">
           Email Ram Kumar's card to yourself:
         </p>
