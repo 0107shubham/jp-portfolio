@@ -20,7 +20,7 @@ const QRCodeComponent = ({ isVisible }) => {
             alt="cont"
           />
         </div>
-        Download QR Code
+        <p className="mt-5"> Download QR Code</p>
       </div>
     </div>
   );
