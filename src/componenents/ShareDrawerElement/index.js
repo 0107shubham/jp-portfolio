@@ -36,10 +36,10 @@ const EmailComponent = ({ isVisible }) => {
 
   return (
     <div onClick={handleEmailClick} className="category-item">
-      <div class="py-5">
-        <div class="flex flex-col p-2">
+      <div class="py-5 w-full ">
+        <div class="flex w-full  flex-col p-2">
           <p class="mb-3 text-base text-gray-500">Enter an email address</p>
-          <div class="flex  ">
+          <div class="flex w-full ">
             <input
               class="mx-1 w-3/4
           
@@ -75,13 +75,13 @@ const WhatsAppComponent = ({ isVisible }) => {
         </p>
         <div class="flex w-full max-w-sm ">
           <input
-            class=" block flex-grow min-w-80 mr-1 rounded-md border border-gray-300  shadow-sm focus:border-gray-300"
+            class=" block flex-grow w-3/4 mr-1 rounded-md border border-gray-300  shadow-sm focus:border-gray-300"
             placeholder=""
             autocomplete="tel"
             type="tel"
             inputmode="tel"
           />
-          <button className="bg-custom-purple text-white w-[72px] h-[42px] rounded">
+          <button className="bg-custom-purple text-white w-1/4 h-[42px] rounded">
             Send
           </button>
         </div>
