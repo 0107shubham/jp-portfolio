@@ -11,6 +11,7 @@ const drawerStyle = {
   maxWidth: "550px",
   boxShadow: "none",
   borderRadius: "10px",
+  overflowY: "auto", // Add horizontal scrolling
 };
 
 // Apply styles only for mobile devices using a media query
