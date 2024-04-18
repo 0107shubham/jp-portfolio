@@ -41,7 +41,7 @@ const Card = () => {
             />
           </div>
           <div className="mt-3 flex flex-grow max-w-[70%] flex-wrap items-end justify-end gap-2 sm:mt-6">
-            <button class="bg-custom-purple text-[17px] text-white rounded py-2 px-5 h-8 md:h-10">
+            <button class="bg-custom-purple text-[17px] px-2 text-white rounded text-center h-8 md:h-10">
               Back my campaign
             </button>
 
