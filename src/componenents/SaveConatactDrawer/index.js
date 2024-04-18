@@ -4,7 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const drawerStyle = {
   margin: "0 auto",
-  height: "50%",
+  height: "60%",
   width: "100%",
   maxWidth: "610px",
   boxShadow: "none",
